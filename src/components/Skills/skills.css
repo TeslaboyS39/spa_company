@@ -55,6 +55,11 @@
     .skillBarText>p {
         font-size: 2vw;
     }
+    .skillBar {
+        flex-direction: column;
+        align-items: center; /* Mengatur agar gambar dan teks berada di tengah */
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -62,8 +67,9 @@
         font-size: 2vw;
     }
     .skillBarImg{
-        height: 2,25rem;
-        width: 2.25rem;
+        height: 5,01rem;
+        width: 5.01rem;
+        margin-right: 0;
     }
     .skillBarText>h2{
         font-size: 5vw;

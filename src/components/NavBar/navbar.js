@@ -93,8 +93,7 @@ const Navbar = () => {
           smooth={true}
           offset={-100}
           duration={500}
-          className="listItem"
-          onClick={() => setShowMenu(false)}
+          className="desktopMenuListItem"
         >
           Home
         </Link>
@@ -103,48 +102,56 @@ const Navbar = () => {
           to="skills"
           spy={true}
           smooth={true}
-          offset={-80}
+          offset={-60.5}
           duration={500}
-          className="listItem"
-          onClick={() => setShowMenu(false)}
+          className="desktopMenuListItem"
         >
-          About
+          Services
         </Link>
         <Link
           activeClass="active"
           to="works"
           spy={true}
           smooth={true}
-          offset={-47}
+          offset={-60.5}
           duration={500}
-          className="listItem"
-          onClick={() => setShowMenu(false)}
+          className="desktopMenuListItem"
         >
-          Portfolio
+          Works
+        </Link>
+        <Link
+          activeClass="active"
+          to="technologies"
+          spy={true}
+          smooth={true}
+          offset={-48.5}
+          duration={500}
+          className="desktopMenuListItem"
+        >
+          Technologies
         </Link>
         <Link
           activeClass="active"
           to="clients"
           spy={true}
           smooth={true}
-          offset={-35}
+          offset={-36.5}
           duration={500}
-          className="listItem"
-          onClick={() => setShowMenu(false)}
+          className="desktopMenuListItem"
         >
-          My Skills
+          Clients & Partnership
         </Link>
         <Link
           activeClass="active"
           to="contact"
           spy={true}
           smooth={true}
-          offset={-35}
+          offset={95}
           duration={500}
           className="listItem"
           onClick={() => setShowMenu(false)}
         >
-          Contact
+          Contact Us
         </Link>
       </div>
     </nav>
